@@ -11,25 +11,25 @@ namespace HealthCatalystApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class NameController : ControllerBase
+    public class UserController : ControllerBase
     {
-            private readonly NameContext _context;
+            private readonly UserContext _context;
 
-            public NameController(NameContext context)
+            public UserController(UserContext context)
             {
                 _context = context;
             }
 
             [HttpGet]
-            public async Task<ActionResult<IEnumerable<Name>>> GetNames()
+            public async Task<ActionResult<IEnumerable<User>>> GetUsers()
             {
-                return await _context.Names.ToListAsync();
+                return await _context.Users.ToListAsync();
             }
 
             [HttpGet("{id}")]
-            public async Task<ActionResult<Name>> GetName(long id)
+            public async Task<ActionResult<User>> GetUser(long id)
             {
-                var name = await _context.Names.FindAsync(id);
+                var name = await _context.Users.FindAsync(id);
 
                 if (name == null)
                 {
@@ -40,25 +40,25 @@ namespace HealthCatalystApi.Controllers
             }
 
             [HttpPost]
-            public async Task<ActionResult<Name>> PostName(Name name)
+            public async Task<ActionResult<User>> PostUser(User user)
             {
-                _context.Names.Add(name);
+                _context.Users.Add(user);
                 await _context.SaveChangesAsync();
 
-                return CreatedAtAction(nameof(GetName), new { id = name.ID }, name);
+                return CreatedAtAction(nameof(GetUser), new { id = user.ID }, user);
             }
 
             [HttpDelete("{id}")]
-            public async Task<IActionResult> DeleteTodoItem(long id)
+            public async Task<IActionResult> DeleteUser(long id)
             {
-                var name = await _context.Names.FindAsync(id);
+                var user = await _context.Users.FindAsync(id);
 
-                if (name == null)
+                if (user == null)
                 {
                     return NotFound();
                 }
 
-                _context.Names.Remove(name);
+                _context.Users.Remove(user);
                 await _context.SaveChangesAsync();
 
                 return NoContent();

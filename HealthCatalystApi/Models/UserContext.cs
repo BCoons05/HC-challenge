@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HealthCatalystApi.Models
 {
-    public class NameContext : DbContext
+    public class UserContext : DbContext
     {
-        public NameContext(DbContextOptions<NameContext> options)
+        public UserContext(DbContextOptions<UserContext> options)
             : base(options)
         {
         }
 
-        public DbSet<Name> Names { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
