@@ -60,8 +60,6 @@ C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystA
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\obj\Debug\netcoreapp3.1\HealthCatalystApi.csproj.CoreCompileInputs.cache
-C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\obj\Debug\netcoreapp3.1\HealthCatalystApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
@@ -145,3 +143,10 @@ C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystA
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\obj\Debug\netcoreapp3.1\HealthCatalystApi.dll
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\obj\Debug\netcoreapp3.1\HealthCatalystApi.pdb
 C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\obj\Debug\netcoreapp3.1\HealthCatalystApi.genruntimeconfig.cache
+C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\System.Web.Cors.dll
+C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\System.Web.Http.Cors.dll
+C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\obj\Debug\netcoreapp3.1\HealthCatalystApi.csproj.CoreCompileInputs.cache
+C:\Users\Brian\Desktop\HealthCatalystChallenge\HealthCatalystApi\HealthCatalystApi\obj\Debug\netcoreapp3.1\HealthCatalystApi.MvcApplicationPartsAssemblyInfo.cache

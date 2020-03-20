@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using HealthCatalystApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Cors;
 
 namespace HealthCatalystApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    
     public class UserController : ControllerBase
     {
             private readonly UserContext _context;
